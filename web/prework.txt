@@ -1,0 +1,10 @@
+rm -f .bash* .profile
+mkdir web
+cd web
+git clone https://github.com/SvetozarPro/stepic_web_project.git /home/box
+git pull
+chmod a+x init.sh
+bash init.sh
+
+sudo apt-get update
+sudo apt-get install mc
